@@ -2,6 +2,7 @@ def count_strings(array)
   array.count do |strings|
     array.class == String
   end
+  return array.count
 end
 
 
